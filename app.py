@@ -72,3 +72,22 @@ while True:
             else:
                 print(f"Career suggestion {i + 1}: Dermatology Nurse (good entry-level option).")
             suggestions+=1
+        elif field=="arts" and interest=="photographer":
+            if salaryexp=="high":
+                print(f"Career suggestion {i + 1}: Professional Photographer (great potential for success).")
+            elif salaryexp=="medium":
+                print(f"Career suggestion {i + 1}: Commercial Photographer (stable work with growth opportunities).")
+            else:
+                print(f"Career suggestion {i + 1}: Freelance Photographer (good starting point).")
+            suggestions+=1    
+        elif field=="arts" and interest=="design":
+            if salaryexp=="high":
+                print(f"Career suggestion {i+1}: Creative Director. Excellent salary and artistic freedom.")
+            elif salaryexp=="medium":
+                print(f"Career suggestion {i + 1}: Graphic Designer. A blend of creativity and stability.")
+            else:
+                print(f"Career suggestion {i+1}: Art Teacher. Great for passionate designers.")
+            suggestions += 1 
+        else:
+            print(f"Career suggestion {i + 1}: Sorry, no suggestion available for your inputs.")
+            suggestions+=1
