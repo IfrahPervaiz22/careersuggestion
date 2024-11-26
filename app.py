@@ -48,3 +48,27 @@ while True:
             else:
                 print(f"Career suggestion {i + 1}: Aerospace Technician (good entry-level position).")
             suggestions+=1
+        elif field=="medical" and interest=="neurologist":
+            if salaryexp== "high":
+                print(f"Career suggestion {i + 1}: Neurologist (excellent pay and growing demand).")
+            elif salaryexp=="medium":
+                print(f"Career suggestion {i + 1}: Neurologist (good long-term career).")
+            else:
+                print(f"Career suggestion {i + 1}: Neurology Assistant (entry level in the medical field).")
+            suggestions+=1
+        elif field=="medical" and interest=="dentist":
+            if salaryexp=="high":
+                print(f"Career suggestion {i + 1}: Dentist (high earning potential with specialization).")
+            elif salaryexp=="medium":
+                print(f"Career suggestion {i + 1}: General Dentist (good earning opportunities).")
+            else:
+                print(f"Career suggestion {i + 1}: Dental Assistant (good entry-level role).")
+            suggestions+=1
+        elif field=="medical" and interest=="dermatologist":
+            if salaryexp=="high":
+                print(f"Career suggestion {i + 1}: Dermatologist (excellent earning and job stability).")
+            elif salaryexp=="medium":
+                print(f"Career suggestion {i + 1}: Dermatology Specialist (good earning and growth).")
+            else:
+                print(f"Career suggestion {i + 1}: Dermatology Nurse (good entry-level option).")
+            suggestions+=1
