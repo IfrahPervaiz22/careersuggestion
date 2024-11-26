@@ -91,3 +91,15 @@ while True:
         else:
             print(f"Career suggestion {i + 1}: Sorry, no suggestion available for your inputs.")
             suggestions+=1
+    satisfaction=input("Are you satisfied with your choice? (yes/no)")
+    if satisfaction=="no":
+        print("It's a best choice for your career. it's also related to your interest.By choosing this career, you'll have so many opportunities in future ")
+        satisfaction2=input("Are you Agree with your choice now? (yes/no):")
+        if satisfaction2=="no":
+            print("Let's reconsider your choices now")
+            continue
+        else:
+            print("You chooosed the right one! Good Luck.")
+            break
+    else:
+        print("Good luck for your future!")
